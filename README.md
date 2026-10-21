@@ -67,4 +67,4 @@ portfolio/
 ## Author
 
 **Hariprasath**
-GitHub: [@your-username](https://github.com/your-username) · LinkedIn: [your-username](https://linkedin.com/in/your-username) · Email: you@example.com
+GitHub: [@JerrySanjay](https://github.com/JerrySanjay/Task1.git) · LinkedIn: [your-username](linkedin.com/in/hariprasath-s-585a8430a) · Email: hariprasathhp2812@gmail.com
