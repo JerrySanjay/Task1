@@ -2,8 +2,8 @@
 
 A personal developer portfolio that showcases my projects, tech stack, resume and contact links. Built with plain HTML, CSS and JavaScript, with no frameworks or build tools.
 
-**Live site:** https://your-username.github.io/portfolio/
-**Repository:** https://github.com/your-username/portfolio
+**Live site:** https://hpdevportfo.netlify.app
+**Repository:** https://github.com/JerrySanjay/Task1.git
 
 ## Features
 
@@ -40,7 +40,7 @@ portfolio/
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/portfolio.git
+   git clone https://github.com/JerrySanjay/Task1.git
    cd portfolio
    ```
 2. Open `index.html` in a browser, or use the VS Code **Live Server** extension.
