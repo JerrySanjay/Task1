@@ -3,9 +3,191 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HP DEV</title>
+    <link rel="icon" href="Images/icons8-game-of-thrones-50.png" type="png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header class="header">
+
+        <button class="menu-toggle" id="menuToggle">☰</button>
+        <div class="title">
+            <a>HP.dev</a>
+        </div>
+        <div class="info" id="navMenu">
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <button id="themeBtn">☾</button>
+        
+    </header>
+    <hr>
+    <div class="content">
+        <p class="role"><span>🟢</span>Open to internships and junior roles</p>
+        <h1 class="name">Hariprasath builds web apps that work on every screen.</h1>
+        <p class="discription">I'm a full-stack developer in Chennai. I build with React, Node.js and<br> PostgreSQL, and I care about fast pages, clean code and accessible interfaces.</p>
+        <button class="projects-btn">See my projects</button>
+        <button class="touch-btn">Get in touch</button>
+    </div>
+
+    <div class="projects" id="projects">
+        <h1>Projects</h1>
+        <div class="project-card">
+            <div class="card-1">
+
+                <h3>JobTrack</h3>
+                <p>Job application tracker with a drag-and-drop board, status filters and reminders for follow-ups.</p>
+                <ul>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>PostgreSQL</li>
+                </ul>
+                <a href="#link">Code</a>
+                <a href="#livedemo">Live demo</a>
+                <button class="project-details"
+                    data-title="JobTrack"
+                    data-description="A job application tracker with a drag-and-drop board, status filters, follow-up reminders, and a React, Node.js and PostgreSQL stack.">
+                    View Details
+                </button>
+            </div>
+            <div class="card-1">
+                <h3>Weather Now</h3>
+                <p>Forecast app with city search, 7-day view and saved locations. Caches API calls to stay fast.</p>
+                <ul>
+                    <li>Javascript</li>
+                    <li>REST API</li>
+                    <li>CSS Grid</li>
+                </ul>
+                <a href="#link">Code</a>
+                <a href="#livedemo">Live demo</a>
+                    <button class="project-details"
+                        data-title="Weather Now"
+                        data-description="A weather forecasting app with city search, a 7-day forecast, saved locations, and API caching for better performance.">
+                        View Details
+                    </button>
+            </div>
+            <div class="card-1">
+                <h3>Shelf</h3>
+                <p>Personal book library with notes, ratings and reading goals. Works offline as a PWA.</p>
+                <ul>
+                    <li>Next.js</li>
+                    <li>Tailwind</li>
+                    <li>MongoDB</li>
+                </ul>
+                <a href="#link">Code</a>
+                <a href="https://www.shelf.ng/">Live demo</a>
+                <button class="project-details"
+                    data-title="Shelf"
+                    data-description="A personal book library with notes, ratings, reading goals, and offline support as a progressive web app, built with Next.js, Tailwind CSS and MongoDB.">
+                    View Details
+                </button>
+            </div>
+        </div>
+    </div>
+
+<div class="modal" id="projectModal">
+    <div class="modal-content">
+        <button id="modalClose" class="modal-close">&times;</button>
+        <h2 id="modalTitle"></h2>
+        <p id="modalDescription"></p>
+    </div>
+</div>
+
+    <section class="tech-stack" id="skills">
+        <h1>TechStack</h1>
+        <div class="tech-grid">
+            <div class="tech-category">
+                <h3>Languages</h3>
+                <ul>
+                    <li>Javascript</li>
+                    <li>TypeScript</li>
+                    <li>Python</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+            <div class="tech-category">
+                <h3>Frontend</h3>
+                <ul>
+                    <li>React</li>
+                    <li>Next.js</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Tailwind</li>
+                </ul>
+            </div>
+            <div class="tech-category">
+                <h3>Backend</h3>
+                <ul>
+                     <li>Node.js</li>
+                    <li>Express</li>
+                    <li>PostgreSQL</li>
+                    <li>MongoDB</li>
+                </ul>
+
+            </div>
+            <div class="tech-category">
+                <h3>Tools</h3>
+                <ul>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>Docker</li>
+                    <li>Vercel</li>
+                    <li>Figma</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <h1 class="header-resume" id="resume">Resume</h1>
+    <section  class="edu-stack">
+        <div class="edu-details">
+            <div class="edu-status">
+                <p><span>🔵</span> Jun 2025 - Present</p>
+                <h3>Frontend Intern, Example Tech</h3>
+                <p>Built reusable React components and cut page load time by 30%.</p>
+            </div>
+            <div class="edu-status">
+                <p> <span>🔵</span> 2022 – 2026</p>
+                <h3>B.E. Computer Science, Example Institute of Technology</h3>
+                <p>CGPA 8.5. Teaching assistant for Data Structures.</p>  
+            </div>
+            <div class="edu-status">
+                <p> <span>🔵 </span>2025</p>
+                <h3>Certification: Responsive Web Design</h3>
+                <p>freeCodeCamp. Five projects completed.</p>
+            </div>
+
+        </div>
+        <div class="resume-detail">
+            <p>Want the full details? Download <br> my resume as a PDF.</p>
+            <button>Download resume</button>
+
+        </div>
+
+    </section>
+
+    <section class="contact-details" id="contact">
+        <h1>Contact</h1>
+        <p>I reply within a day. Email is best.</p>
+        <a href="/email">aarav@example.com</a>
+        <div class="Contact-btn">
+            <button>GitHub</button>
+            <button>LinkedIn</button>
+            <button>X</button>
+        </div>
+    </section>
+
+    <div class="buttom-para">
+        <hr>
+        <p>© 2026 Aarav Kumar. Built with HTML, CSS and a little JavaScript.</p>
+
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

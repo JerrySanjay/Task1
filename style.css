@@ -1,0 +1,522 @@
+
+
+body{
+    background-color:rgb(245, 239, 239);
+     font-family: 'Poppins', sans-serif;
+     transition: background-color 0.3s ease, color 0.3s ease;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body.dark-mode{
+    background-color: #121826;
+    color: #f1f5f9;
+}
+
+
+
+.dark-mode .header {
+    background-color: #121826;
+}
+
+.header{
+    display: flex;
+    padding-top: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgb(245, 239, 239);
+    
+}
+
+.dark-mode .title a{
+    color: white;
+}
+
+.dark-mode .title a:hover{
+    color: #f1f5f9;
+}
+
+.title{
+    padding-left: 40px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.title a{
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.info{
+    padding-left: 25%;
+    font-weight: 400;
+}
+
+.dark-mode .header button {
+    background-color: #121212;
+    
+}
+
+
+
+.dark-mode .info a{
+    color: #f1f5f9;
+}
+.info a{
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.info a:hover{
+    background-color: white;
+    border-radius: 15px;
+    padding: 12px;
+    max-width: fit-content;
+}
+
+.dark-mode a:hover{
+    color: #121212;
+}
+
+.header button{
+    margin-left: 20%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    background-color: white; 
+    font-size: 26px;   
+}
+.dark-mode button {
+    color: #f8fafc;
+}
+.content .role{
+    border: 1px solid gray;
+    max-width: max-content;
+    padding: 10px 30px;
+    background-color: white;
+    border-radius: 18px;
+    font-weight: 500;
+    font-size: 12px;
+    color: gray;
+}
+
+.content{
+    justify-content: center;
+    align-items: center;
+    padding-left: 12%;
+    padding-top: 60px;
+}
+
+
+.content .name{
+    font-size: 85px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+
+.content .discription{
+    font-size: 16px;
+    font-weight: 300;
+    color: gray;
+}
+
+.projects-btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 17px 20px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 8px;
+    margin-right: 12px;
+}
+
+.projects-btn:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.touch-btn{
+    border: 1px solid black;
+    padding: 16px 20px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 8px;
+    color: rgb(49, 49, 49);
+}
+
+.touch-btn:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.dark-mode .touch-btn {
+    color: #121212;
+}
+
+.dark-mode .projects h1{
+    color: #f1f5f9;
+}
+
+
+
+.projects h1{
+    padding-top: 120px;
+    padding-left: 12%;
+    font-size: 35px;
+    color: black;
+    font-weight: 600;
+}
+
+.project-card{
+    display: flex;
+    gap: 20px;
+    margin-left: 10%;
+
+}
+.dark-mode .project-card .card-1{
+    border-color: #749adf;
+}
+
+.project-card .card-1{
+    border: 1px solid gray;
+    padding: 18px;
+    width: 300px;
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+}
+
+.card-1 p{
+    background-color: white;
+    font-weight: 100;
+    font-size: 15px;
+    color: gray;
+}
+
+.card-1 h3{
+    background-color: white;
+}
+.card-1 ul{
+    background-color: white;
+    padding: 12px;
+}
+
+.card-1 a{
+    background-color: white;
+}
+
+.card-1 ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.card-1 li{
+    border: 1px solid gray;
+    color: black;
+    border-radius:6px;
+    max-width: fit-content;
+    font-size: small;
+    padding: 5px;
+}
+
+.card-1 a{
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 12px;
+    color: blue;
+}
+
+
+
+.tech-stack{
+    padding: 10px 28px 30px;
+    margin-top: 40px;
+}
+
+.tech-stack h1{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-left: 130px;
+
+}
+
+
+
+.tech-grid{
+    display: grid;
+    grid-template-columns: repeat(4,0.4fr);
+    gap: 0px;
+    margin-left: 80px;
+
+}
+
+.tech-category h3{
+    font-size: 16px;
+    color: #526078;
+    margin-bottom: 12px;
+    margin-left: 50px;
+}
+
+.tech-category ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px 6px;
+}
+
+.dark-mode .tech-category li{
+    background-color: #f1f5f9;
+    color: #121212;
+}
+
+.tech-category li{
+    border: 1px solid #d9d6ce;
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 13px;
+    color: #25334a;
+    background-color: transparent;
+}
+
+@media (max-width : 768px){
+    .tech-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .tech-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .tech-stack h1 {
+        font-size: 28px;
+    }
+}
+
+.edu-stack{ 
+    display: flex;
+    margin-left: 170px;
+    gap: 200px;
+}
+
+.header-resume{
+    margin-left: 160px;
+    margin-top: 150px;
+    font-size: 36px;
+}
+
+.edu-status p{
+    font-size: 15px;
+    font-weight: 200;
+    color: #526078;
+} 
+
+.edu-status{
+    margin-bottom: 40px;
+}
+
+
+.resume-detail p{
+    font-size: 18px;
+    color: #526078;
+}
+
+.resume-detail button{
+    background-color: rgb(0, 0, 255);
+    color: #fff;
+    border: none;
+    padding: 17px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 14px;
+}
+
+.contact-details{
+    margin-top: 140px;
+    margin-left: 160px;
+}
+
+.contact-details p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #526078;
+}
+
+.contact-details a{
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration:none;
+    border-bottom: 2px solid blue;
+}
+
+.Contact-btn button{
+    margin-top: 20px;
+    padding: 18px;
+    border-radius: 12px;
+    border: 1px solid black;
+    background-color: transparent;
+    margin-right: 16px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.buttom-para{
+    margin-top: 150px;
+    text-align:center;
+    padding: 20px;
+}
+
+.buttom-para p{
+    color: #526078;
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.buttom-para hr{
+    color: #526078;
+    
+}
+
+.dark-mode .contact-details a{
+    color: #f1f5f9;
+}
+
+.dark-mode .Contact-btn button {
+    background-color: #f1f5f9;
+    color: #121212;
+}
+
+.dark-mode .card-1 {
+    background-color: #182842;
+}
+
+.dark-mode .card-1 h3{
+    background-color: transparent;
+    color: #fff;
+}
+
+.dark-mode .card-1 p {
+    background-color: transparent;
+}
+.dark-mode .card-1 ul{
+    background-color: transparent;
+}
+
+.dark-mode .card-1 li{
+    background-color: #121826;
+    color: #fff;
+}
+
+.dark-mode .card-1 a{
+    background-color: transparent;
+    color:  #3b6fc7;
+}
+
+.dark-mode .tech-category li{
+    background-color: transparent;
+    color: #fff;
+}
+
+.Contact-btn button:hover{
+    background-color: #2222cc;
+    transform: translateY(-4px);
+    color: #fff;
+     box-shadow: 0 8px 18px rgba(0, 0, 255, 0.25);
+    transition: transform 0.2s ease;
+}
+
+.resume-detail button:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(0, 0, 255, 0.25) ;
+}
+
+.menu-toggle{
+    display: none;
+    margin-left: auto !important;
+    margin-right: 15px;
+    width: 45px !important;
+    height: 45px !important;
+    border-radius: 8px !important;
+}
+
+
+.project-details {
+    margin-top: 15px;
+    padding: 10px 14px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.project-details:hover {
+    transform: translateY(-3px);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 2000;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.modal.show {
+    display: flex;
+}
+
+.modal-content {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    padding: 25px;
+    border-radius: 12px;
+    background: white;
+    color: #222;
+}
+
+.modal-close {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    border: none;
+    background: transparent;
+    color: #222;
+    font-size: 26px;
+}
+
+.dark-mode .modal-content {
+    background: #182842;
+    color: #f1f5f9;
+}
+
+.dark-mode .modal-close {
+    color: #f1f5f9;
+}
+
+
+
+
+
